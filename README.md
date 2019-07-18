@@ -23,23 +23,76 @@ Cuando ya hayamos descargado e instalado Node.js procederemos a descargar nuestr
 [Aeropuerto](https://github.com/Blueshadow58/aeropuerto-java)
 
 
+#### Para descargar un proyecto de github
+Lo primero que haremos será ir a cualquier repositorio github, a partir de ahí haremos click en "Clone or Download"
+<img src="">
+
+Luego seleccionaremos la opción "Download ZIP"
+<img src="">
+
+
+#### Para clonar nuestro repositorio en Visual Studio Code
+Para clonar nuestro repositorio en Visual Studio Code será necesario ir a nuestro proyecto github, donde haremos click en el boton al lado de la URL
+<img src="">
+
+En VSC presionaremos las siguientes teclas "ctr + shift + p"
+<img src="">
+
+Ahí escribiremos lo siguiente "Git: Clone"
+<img src="">
+
+En el siguiente campo de texto escribiremos nuestra URL del proyecto
+<img src="">
+
+
+#### PATH
+
+win + r
+systempropertiesremote.exe
+Opciones avanzadas
+Variables de entorno
+Copiar direccion del proyecto react
+
+#### Mini Server
+En este caso en la carpeta de nuestro mini server abriremos el archivo "mysql_start", una vez abierto escribiremos lo siguiente "mysql --user=root --password=root". Ahora tendremos acceso a nuestra base de datos y podremos realizar consultas en esta
+<img src="">
+
+
+#### Information about CORS
+https://alfilatov.com/posts/run-chrome-without-cors/
+
+
 
 ## Instalación
 
 
 
 
-Agregar react a VSC
 
-Ir a https://github.com/Blueshadow58/aeropuerto-react
+
+
+
+
+
+
+
+descargar visual estudio code		https://code.visualstudio.com/Download
+descargar node.js			https://nodejs.org/es/
+netbeans codigo aeropuerto		https://github.com/Blueshadow58/aeropuerto-java	
+Copiar base de datos			
+Copiar de github proyecto react		
+
+
+- Ir a https://github.com/Blueshadow58/aeropuerto-react
 - Clone or download
 - copiar url
 - en visual studio code ctrl + shift + p
 - Git: Clone
 - Copiar ahí la URL
 
-Abrir mini server (mysql_start)
 
+
+Abrir mini server (mysql_start)
 
 
 
@@ -57,9 +110,3 @@ cd C:\Users\19817702-4\Aero\aeropuerto-react (donde esté el proyecto)
 npm install foundation-sites
 
 npm start
-
-
-
-
-
-
